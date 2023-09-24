@@ -10,7 +10,7 @@
 #include <iostream>
 #include <string>
 
-// Base Vehicle class
+// Abstract Base Vehicle class
 class Vehicle {
 public:
     virtual void drive() const = 0;
